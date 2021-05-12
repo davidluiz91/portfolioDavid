@@ -1,0 +1,75 @@
+html,body{
+    height: 100%;
+}
+.parent{
+    display: flex;  
+}
+
+.barraLateral{
+    width:30%;
+    height:100%;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.barraPosts{
+   position: absolute;    
+}
+
+img{
+    margin-left:50px;
+    margin-top: 30px;
+    width: 70%;
+    border:6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    
+}
+.menu{
+    margin: 400px 0;
+    text-align: center;
+    }
+
+.menu a{
+    color: rgb(254, 254, 255);
+    opacity: 0.4;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.menu a.select{
+    opacity: 1;
+}
+.titulo{
+    position: absolute;
+    left: 30.6%;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    padding:0 4%;
+}
+
+.instagram{    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: px;
+}
+.github{    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: px;
+}
+.linkedin{    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: px;
+}
